@@ -1,0 +1,20 @@
+# Default values for helm.
+# This is a YAML-formatted file.
+# Declare variables to be passed into your templates.
+
+replicaCount: 1
+
+image:
+  repository: galinko
+  tag: "v1.0.5-e4482fa"
+  arch: amd64
+
+# Define the service section including the port for connectivity tests
+service:
+  port: 8080  # Default port; change this as needed for your application
+
+# Additional section defined for TELE_TOKEN token
+secret:
+  name: kbot
+  tokenKey: token
+  tokenName: TELE_TOKEN
