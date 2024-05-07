@@ -5,7 +5,7 @@
 replicaCount: 1
 image:
   registry: "ghcr.io"
-  repository: galinko
+  repository: galinko87/kbot
   tag: "v1.0.5-fb32b2e"
   os: linux
   arch: amd64
