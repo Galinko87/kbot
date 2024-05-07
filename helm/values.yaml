@@ -4,9 +4,12 @@
 
 replicaCount: 1
 image:
-  repository: galinko
-  tag: "v1.3.0-fb32b2e"
+  registry: "ghcr.io"
+  repository: "galinko87/kbot"
+  tag: "v1.3.0-c0fc924-linux-amd64"
+  os: "linux"
   arch: amd64
+  parameters: "go"
 # Define the service section including the port for connectivity tests
 service:
   port: 8080 # Default port; change this as needed for your application
