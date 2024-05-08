@@ -6,7 +6,7 @@ replicaCount: 1
 image:
   registry: "ghcr.io"
   repository: galinko87/kbot
-  tag: "v1.3.0-8571fe9"
+  tag: "v1.3.0-65f49cd"
   os: linux
   arch: amd64
 # Define the service section including the port for connectivity tests
